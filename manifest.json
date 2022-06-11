@@ -1,0 +1,13 @@
+{
+  "name": "BookMarker",
+  "description": "Neat and Efficient way to bookmark",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
